@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Post;
 use App\Models\Category;
 use App\Models\User;
+use Facade\FlareClient\Http\Response;
 
 class PostController extends Controller
 {
